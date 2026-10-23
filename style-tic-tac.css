@@ -2,13 +2,9 @@ html {
     height: 100%;
 }
 
-body {
-    height: 100%;
-    background-color: rgb(216, 190, 112);
-    margin: 0;
-}
-
-
+body{
+    
+margin:0px;}
 a {
     padding: 10px;
     color: white;
@@ -47,6 +43,7 @@ main {
 
 .square:hover {
     background-color:rgb(252, 130, 0);
+
 }
 
 .square:active {
@@ -56,5 +53,11 @@ main {
 
 #player-data {
     display: flex;
+}
+
+
+.project-list {
+    border:solid 1px;
+    background-color:black;
 }
 

@@ -1,0 +1,25 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: rgb(216, 190, 112);
+    margin: 0;
+}
+
+
+a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+

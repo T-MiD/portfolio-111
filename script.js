@@ -32,6 +32,8 @@ function checkWinner() {
 
     if (first !== '' && first === second && first === third) {
       playerWon.textContent = `${first} Won!!`;
+      console.log (first +'win!')
+      alert(first + ' win!');
       gameOver = true;
       return;
     }
